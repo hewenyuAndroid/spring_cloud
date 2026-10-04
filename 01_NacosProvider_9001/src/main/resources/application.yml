@@ -1,0 +1,18 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nacos-provider-9001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        # 前面已经开启鉴权
+        username: nacos
+        password: nacos
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
