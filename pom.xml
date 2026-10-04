@@ -10,6 +10,7 @@
 
     <modules>
         <module>01_NacosProvider_9001</module>
+        <module>02_NacosConsumer_9101</module>
     </modules>
 
     <properties>
