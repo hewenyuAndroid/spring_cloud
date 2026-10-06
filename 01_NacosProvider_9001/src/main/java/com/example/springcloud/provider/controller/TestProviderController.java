@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class TestProviderController {
 
     @Value("${server.port}")
     private String port;
 
-    @GetMapping("/get_port")
+    @GetMapping("/provider/get_port")
     public String getServerPort() {
         return "Hello Nacos Discovery, server port: " + port;
     }

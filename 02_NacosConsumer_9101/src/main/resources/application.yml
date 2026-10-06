@@ -11,4 +11,4 @@ spring:
         server-addr: localhost:8848
         
 service-url:
-  nacos-user-service: http://nacos-provider
+  nacos-user-service: http://nacos-provider-9001
