@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-center-8899
+  cloud:
+    nacos:
+      discovery:
+        password: nacos
+        username: nacos
+        server-addr: localhost:8848
+      # config 配置需要先添加配置中心的 pom 依赖
+      config:
+        server-addr: localhost:8848
+        password: nacos
+        username: nacos
+        # 设置配置文件的格式
+        file-extension: yaml
+        # 设置命名空间，注意，这里要使用命名空间Id
+        namespace: b27f3952-7a9c-4b5d-a6dc-b56badaf7240

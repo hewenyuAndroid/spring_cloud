@@ -1,0 +1,9 @@
+server:
+  port: 8899
+
+spring:
+  profiles:
+    # 配置当前为开发环境
+    active: dev
+
+
